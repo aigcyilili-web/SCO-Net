@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+/weights/
+/data/
+/outputs/
+/runs/
+/src/optical/data/__init__.py
+/src/optical/data/data_augment.py
+/src/optical/data/data_load.py
+/src/optical/models/layers.py
+/src/optical/models/MIMOUNet_Aux.py

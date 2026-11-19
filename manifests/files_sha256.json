@@ -1,0 +1,78 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "3fbc10c45d598ea127b873ab289ebd53edd8130c9fb19edf5834951c20f04d15"
+  },
+  {
+    "path": "manifests/prepared_sources.json",
+    "sha256": "7d7eb926403e0fe94a0757d1d0272a93d0c4c7b09a4d3921ca542d71b14a517c"
+  },
+  {
+    "path": "manifests/weights_sha256.json",
+    "sha256": "b2a1d61dd59df9d00d7a0605b324f734400875c977bd5428cd0994afe0761e63"
+  },
+  {
+    "path": "patches/sco-net.patch",
+    "sha256": "bc39582568e311bed2f25282004ae15437b94c821d8c60e80086fe96d9fa32f6"
+  },
+  {
+    "path": "protocols/optical_control.json",
+    "sha256": "858461163f2e5734f065b5c78394044a1ad92f86675ccb2381d9e15ec65dc178"
+  },
+  {
+    "path": "README.md",
+    "sha256": "870ac46f3541abe975501adc8940ceda1a3d4a3cd7b5593bf3a3ce7ff4cdcf59"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "b064ef1efc4dabfc261c48c88a1360a2f4d5c2dd68e33069c1f4a5b087304b37"
+  },
+  {
+    "path": "scripts/evaluate.py",
+    "sha256": "43178fbbddc328bc4b93b59b7169ffff861c4a6eb792ff0e89255d611e697238"
+  },
+  {
+    "path": "scripts/export_optics.py",
+    "sha256": "29e24bbc90bc45a27acfc2c5bb90baf0b78f9be13e899a8403fa9982ae6a941a"
+  },
+  {
+    "path": "scripts/infer.py",
+    "sha256": "2818c5ddccffec28bd7a882b5d24a62934c8e295bdcd2077b15a5a483928665b"
+  },
+  {
+    "path": "scripts/prepare_sources.py",
+    "sha256": "e8289dd1bb144bfaa5533351e8e05aaebde0e10fbb3317bfb6a225607a2d9f6c"
+  },
+  {
+    "path": "scripts/train_optical.py",
+    "sha256": "886c26413030da5a0537e6b402b92e5543135884466325250f4300e8c35e6e04"
+  },
+  {
+    "path": "scripts/verify_package.py",
+    "sha256": "7e3edc8f53c8da353080a6c2854a26006b6f85f808bf320b24824e24549b503c"
+  },
+  {
+    "path": "src/optical/aligned_two_layer.py",
+    "sha256": "fa4c5a0d0e0d7720d09a7da0e3238208cc1fbb9c3c41714db91106942003d75c"
+  },
+  {
+    "path": "src/optical/cv_utils.py",
+    "sha256": "f7b8bcb1b201a45f12f8b340c0b4da6711ed5faf1071970efcbc06147b4f4728"
+  },
+  {
+    "path": "src/optical/fft_conv_utils.py",
+    "sha256": "b8d13f0f51cc7eca985f86f6ffadfb13f2d9e4dba303b5e089575e279d815f37"
+  },
+  {
+    "path": "src/optical/lens_utils.py",
+    "sha256": "c5fc731fc014e100451b9061e86d8c48bac4e0656053a923bd8d837ee855be14"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "3b122e82c40466233d2036b72e483e866cdf13455e7cef7a9a8a69e508afb997"
+  }
+]

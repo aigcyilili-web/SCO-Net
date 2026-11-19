@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ours_control_x12_2000.pt",
+    "size": 55381083,
+    "sha256": "414bae488b6db12ea690287fe6efef70177a166e913c0a31a338b561c21b653c",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  },
+  {
+    "name": "ours_control_x12_2000_height_phase.npz",
+    "size": 87331382,
+    "sha256": "4ce95d777aa83d95e96acd02493727a87187575beea6009c4cd23c3410cc64a7",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  },
+  {
+    "name": "ours_control_x12_2000_optical_parameters.npz",
+    "size": 22544039,
+    "sha256": "4a29858a43bc61c8cd26556bb0a262e9ddc1e599bc4e4673c5cd5a3cc8771cb0",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  },
+  {
+    "name": "ours_control_x16_2000.pt",
+    "size": 55381083,
+    "sha256": "9d55f7c8deec9a8ffa3c734ac93323acb882d1a42e2a1a4a70062ca4035e2530",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  },
+  {
+    "name": "ours_control_x16_2000_height_phase.npz",
+    "size": 87300775,
+    "sha256": "dc15c951c0915b1bce9e7ee242bec80f2eb411f1bff02b854f118ee823b47964",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  },
+  {
+    "name": "ours_control_x16_2000_optical_parameters.npz",
+    "size": 22521842,
+    "sha256": "333aef4b7b0ffa2ea8153fac9743030d68ade310ef69d5cd469260cbe6df75a6",
+    "role": "controlled two-layer rerun; distinct from historical Table 1 optical entries",
+    "metadata": "Tensor-only optical/decoder export; no training filenames, optimizer state or recovery paths"
+  }
+]

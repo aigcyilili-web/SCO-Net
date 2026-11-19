@@ -1,0 +1,32 @@
+{
+  "role": "two-layer controlled rerun",
+  "updates": 2000,
+  "batch_size": 2,
+  "seed": 20261106,
+  "decoder_lr": 0.0001,
+  "phase_lr": 0.01,
+  "optimizer": "Adam",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "loss": "sum of L1 at three scales + 0.05 * sum of complex-FFT L1 at three scales",
+  "phase_grid": [
+    1872,
+    1872
+  ],
+  "sampling_m": 3e-06,
+  "interlayer_m": 0.015,
+  "sensor_gap_m": 0.027,
+  "height_perturbation": 0.05,
+  "distance_perturbation_m": 0.0001,
+  "training_crop": [
+    384,
+    384
+  ],
+  "validation_shape": [
+    960,
+    960
+  ],
+  "historical_table1_checkpoint": false
+}

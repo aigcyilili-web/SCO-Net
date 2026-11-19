@@ -2,7 +2,7 @@
 
 Source code for *Experimental Realization of an Optical Super-Resolution Processing Network for Large-Area Cell Observation*.
 
-The two SLMs were used to measure the front-end diffraction PSF. The tissue reconstruction uses previously scanned digital patches. The full optical layout in Fig. 12 is intended for future tissue-imaging experiments.
+Figure 12 shows the optical path used in the simulation. The model propagates the field through two phase planes to the CCD plane. Tissue images are reconstructed computationally from previously scanned digital patches. Physical implementation of the optical path is planned for future work.
 
 ## Models and optical maps
 

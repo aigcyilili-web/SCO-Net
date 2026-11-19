@@ -2,13 +2,13 @@
 
 Source code for *Experimental Realization of an Optical Super-Resolution Processing Network for Large-Area Cell Observation*.
 
-**[Download the full reproducibility package (314 MB)](https://github.com/aigcyilili-web/SCO-Net/releases/download/v1.0.0/SCO-Net-Ours-reproducibility.zip)** for the source code, ×12 and ×16 checkpoints, learned optical parameters, and height and phase maps. Extract the archive and follow the README inside.
+Select **Code → Download ZIP** to download the SCO-Net source code, ×12 and ×16 checkpoints, learned optical parameters, and height and phase maps (about 314 MB). [Download the main branch as a ZIP](https://github.com/aigcyilili-web/SCO-Net/archive/refs/heads/main.zip). The [v1.0.0 release archive](https://github.com/aigcyilili-web/SCO-Net/releases/download/v1.0.0/SCO-Net-Ours-reproducibility.zip) contains the same six model and optical files.
 
 Figure 12 shows the optical path used in the simulation. The model propagates the field through two phase planes to the CCD plane. Tissue images are reconstructed computationally from previously scanned digital patches. Physical implementation of the optical path is planned for future work.
 
 ## Models and optical maps
 
-The release archive includes all six model and optical files under `weights/`. If you cloned this repository, copy the archive’s `weights/` directory into the project root to run the pretrained models.
+The six model and optical files are in `weights/`.
 
 The ×12 and ×16 checkpoints contain the six-channel MIMO-UNet decoder and both trainable phase layers from the corresponding 2,000-update controlled run. Select the checkpoint for the desired factor. The original optical results in manuscript Table 1 were recorded separately.
 
@@ -16,12 +16,11 @@ For each factor, the optical-parameter NPZ stores the two unconstrained optimiza
 
 ## Setup
 
-Clone this repository and run the commands below from its root. Git is required. The preparation script retrieves a pinned release commit of MIMO-UNet and applies the SCO-Net decoder and data-loader changes. Install the dependencies with a Python 3.10 environment and the CUDA-enabled PyTorch build appropriate for the machine. The archived training environment used PyTorch 2.10.0 and CUDA 13.0.
+Extract the ZIP or clone the repository, then run the commands below from the directory containing this README. The decoder and data loader are included. Install the dependencies with a Python 3.10 environment and the CUDA-enabled PyTorch build appropriate for the machine. The archived training environment used PyTorch 2.10.0 and CUDA 13.0.
 
 ```sh
-python scripts/prepare_sources.py
 python -m pip install -r requirements.txt
-python scripts/verify_package.py
+python scripts/verify_package.py --weights-dir weights
 ```
 
 ## Reconstruction and evaluation

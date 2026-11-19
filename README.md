@@ -2,11 +2,13 @@
 
 Source code for *Experimental Realization of an Optical Super-Resolution Processing Network for Large-Area Cell Observation*.
 
+**[Download the full reproducibility package (314 MB)](https://github.com/aigcyilili-web/SCO-Net/releases/download/v1.0.0/SCO-Net-Ours-reproducibility.zip)** for the source code, ×12 and ×16 checkpoints, learned optical parameters, and height and phase maps. Extract the archive and follow the README inside.
+
 Figure 12 shows the optical path used in the simulation. The model propagates the field through two phase planes to the CCD plane. Tissue images are reconstructed computationally from previously scanned digital patches. Physical implementation of the optical path is planned for future work.
 
 ## Models and optical maps
 
-The six trained assets (checkpoints, optical parameters and exported maps) accompany the manuscript in the reviewer archive. Place those files in `weights/` to reproduce the checkpoint-based results. The training entry point builds a new model from supplied RGB patches.
+The release archive includes all six model and optical files under `weights/`. If you cloned this repository, copy the archive’s `weights/` directory into the project root to run the pretrained models.
 
 The ×12 and ×16 checkpoints contain the six-channel MIMO-UNet decoder and both trainable phase layers from the corresponding 2,000-update controlled run. Select the checkpoint for the desired factor. The original optical results in manuscript Table 1 were recorded separately.
 
